@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn{
+    @apply border-2 rounded-full px-3 py-1 cursor-pointer text-sm
+}
+
+.badge{
+    @apply bg-secondary-100 text-secondary-200 text-xs rounded-full px-2 py-1 font-bold absolute top-0 m-2
+}
