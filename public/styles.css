@@ -21654,6 +21654,36 @@ video {
           animation: bounce 1s infinite;
 }
 
+.btn{
+  border-width: 2px;
+  border-radius: 9999px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  cursor: pointer;
+  font-size: 0.875rem
+}
+
+.badge{
+  --bg-opacity: 1;
+  background-color: #E2E2D5;
+  background-color: rgba(226, 226, 213, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #888883;
+  color: rgba(136, 136, 131, var(--text-opacity));
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  margin: 0.5rem
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
